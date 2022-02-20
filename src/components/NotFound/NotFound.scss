@@ -1,0 +1,35 @@
+
+.wrapper{
+  padding-top: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.error {
+  font-size: 40px;
+  font-style: italic;
+  font-family: 'Times New Roman', Times, serif;
+  color: red;
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.error__btn{
+  display: flex;
+  color: white;
+  text-decoration: none;
+  background-color: cornflowerblue;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  border-radius: 30px;
+  width: 400px;
+  height: 70px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0 8px 24px;
+  font-size: 45px;
+  font-family: 'Times New Roman', Times, serif;
+  &:hover{
+    text-decoration: underline;
+  }
+}

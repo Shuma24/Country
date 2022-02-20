@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;600;800&display=swap");
+.search {
+  padding: 30px 0 50px 0;
+}
+
+.search__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media (max-width: 1024px) {
+  .search__content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.search__input__container {
+  background-color: var(--colors-ui-base);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 600px;
+  -webkit-box-shadow: var(--shadow);
+          box-shadow: var(--shadow);
+  padding: 1rem 2rem;
+  border-radius: 0,5rem;
+  color: var(--colors-text);
+}
+
+@media (max-width: 1024px) {
+  .search__input__container {
+    margin: 0 0 30px 0;
+    width: 230px;
+  }
+}
+
+.search__input {
+  border: none;
+  outline: none;
+  background: var(--colors-ui-base);
+  color: var(--colors-text);
+  width: 500px;
+  height: 50px;
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+@media (max-width: 1024px) {
+  .search__input {
+    width: 230px;
+    font-size: 14px;
+  }
+}
+
+.search__icon {
+  font-size: 30px;
+  color: var(--colors-text);
+}
+
+@media (max-width: 1024px) {
+  .search__icon {
+    display: none;
+    font-size: 14px;
+  }
+}
+
+.search__select {
+  border: none;
+  outline: none;
+  background: var(--colors-ui-base);
+  color: var(--colors-text);
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 600;
+  height: 50px;
+  font-size: 24px;
+  padding: 0.25rem;
+  border-radius: 0,5rem;
+  width: 250px;
+  cursor: pointer;
+}
+
+@media (max-width: 1024px) {
+  .search__select {
+    font-size: 14px;
+    width: 150px;
+  }
+}
+
+.search__select__container {
+  background-color: var(--colors-ui-base);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px;
+  -webkit-box-shadow: var(--shadow);
+          box-shadow: var(--shadow);
+}

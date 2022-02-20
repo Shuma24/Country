@@ -1,0 +1,28 @@
+.back {
+  background-color: var(--colors-ui-base);
+  -webkit-box-shadow: var(--shadow);
+          box-shadow: var(--shadow);
+  padding: 0 1rem;
+  line-height: 1.5;
+  cursor: pointer;
+  border: none;
+  width: 200px;
+  padding: 10px 40px;
+  font-family: 'Nunito Sans', sans-serif;
+  color: var(--colors-text);
+  font-weight: 600;
+  font-size: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 50px 0 0 20px;
+}
+
+.arrow {
+  margin: 0 5px 0 0;
+  height: 35px;
+  width: 40px;
+}
